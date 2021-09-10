@@ -1,0 +1,133 @@
+public class Exercicio1 
+{
+	int ano = prompt("Digite um ano");
+		
+	if(ano/4=0)
+	{
+    		console.log("bisexto");
+	}
+	else
+	{	
+		console.log("não bisexto");
+	}
+}
+
+public class Exercicio2 
+{
+	var sal = prompt("Digite o salário");
+	var desc1 = sal / 100 * 8;
+	var desc2 = sal / 100 * 9;
+	var calc;
+		
+	if(sal < 500,00)
+	{
+   		calc = sal - desc1;	
+	}
+	else
+	{	
+	   	calc = sal - desc2;	
+	}
+}
+
+public class Exercicio3 
+{
+	int var1 = prompt("Digite um numero");
+	int var2 = prompt("Digite um numero");
+	int var3 = prompt("Digite um numero");
+		
+	if(var1 > var2 && var2 > var3)
+	{
+		console.log(var1)
+	}
+	else if (var1 > var2 && var1 < var3)
+	{	
+		console.log(var3)
+	}
+	else if (var1 < var2 && var2 > var3)
+	{	
+		console.log(var2)
+	}
+
+}
+
+public class Exercicio4 
+{
+	int var1 = prompt("Digite um numero");
+	int var2 = prompt("Digite um numero");
+	int var3 = prompt("Digite um numero");
+		
+	if(var1 > var2 && var2 > var3)
+	{
+   		console.log(var1, var2, var3);
+	}
+	else if (var1 > var2 && var2 < var3)
+	{	
+	   	if(var1 > var3)
+		{
+			console.log(var1, var3, var2);
+		}
+		else
+		{
+			console.log(var3, var1, var2);
+		}	
+	}
+	else if (var1 < var2 && var2 < var3)
+	{	
+	   	if(var1 > var3)
+		{
+			console.log(var2, var1, var3);
+		}
+		else
+		{
+			console.log(var2, var3, var1);
+		}	
+	}
+	else if (var1 < var2 && var2 > var3)
+	{	
+		console.log(var3, var2, var1);	
+	}
+}
+
+public class Exercicio5
+{
+	int sons = prompt("Digite um numero");
+	int sal = prompt("Digite um numero");
+	int salf;
+		
+	if(sal < 300,00)
+	{
+		if(sons <= 2)
+		{
+			sanlf = sal + 50,00
+		}
+		else if(sons > 2)
+		{
+			sanlf = sal + 70,00
+		}
+	}
+	if(sal > 300,00 && sal < 500,00)
+	{
+		if(sons <= 2)
+		{
+			sanlf = sal + 40,00
+		}
+		else if(sons > 2)
+		{
+			sanlf = sal + 60,00
+		}
+	}
+	if(sal > 500,00)
+	{
+		if(sons <= 2)
+		{
+			sanlf = sal + 30,00
+		}
+		else if(sons > 2)
+		{
+			sanlf = sal + 20,00
+		}
+	}
+
+	console.log(salf)
+
+}
